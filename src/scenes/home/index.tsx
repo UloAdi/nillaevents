@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import HomePageImage1 from "@/assets/HomePageImage1.jpg";
 import HomePageImage2 from "@/assets/HomePageImage2.png";
 import HomePageImage3 from "@/assets/HomePageImage3.png";
-import HomePageImage4 from "@/assets/homePageImage4.jpg";
+import HomePageImage4 from "@/assets/HomePageImage4.jpg";
 import HomePageImage5 from "@/assets/HomePageImage5.jpg";
 import HomePageImage6 from "@/assets/HomePageImage6.jpg";
 import HomePageImage7 from "@/assets/HomePageImage7.jpg";
