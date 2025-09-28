@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import HomePageImage1 from "@/assets/HomePageImage1.jpg";
-import HomePageImage2 from "@/assets/homePageImage2.png";
+import HomePageImage2 from "@/assets/HomePageImage2.png";
 import HomePageImage3 from "@/assets/HomePageImage3.png";
 import HomePageImage4 from "@/assets/homePageImage4.jpg";
 import HomePageImage5 from "@/assets/HomePageImage5.jpg";
