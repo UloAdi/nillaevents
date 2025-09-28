@@ -83,8 +83,20 @@ const Review = ({ setSelectedPage }: Props) => {
             viewport={{ once: true, amount: 0.5 }}
             variants={container}
           >
-            {/* <ul className="flex overflow-x-auto gap-4 py-4 scrollbar-thin scrollbar-thumb-rose-500">
+            <ul className="flex overflow-x-auto gap-4 py-4 scrollbar-thin scrollbar-thumb-rose-500">
               {review.map((review: ReviewType) => (
+                <li key={review.id} className="flex-shrink-0">
+                  <Reviews
+                    id={review.id}
+                    image={review.image}
+                    setSelectedPage={setSelectedPage}
+                  />
+                </li>
+              ))}
+            </ul>
+
+            {/* <ul className="grid grid-cols-2 gap-4 md:flex md:overflow-x-auto md:gap-4 py-4 scrollbar-thin scrollbar-thumb-rose-500">
+                        {review.map((review: ReviewType) => (
                 <Reviews
                   key={review.id}
                   id={review.id}
@@ -93,17 +105,6 @@ const Review = ({ setSelectedPage }: Props) => {
                 />
               ))}
             </ul> */}
-            <ul className="grid grid-cols-2 gap-4 md:flex md:overflow-x-auto md:gap-4 py-4 scrollbar-thin scrollbar-thumb-rose-500">
-              {/* <ul className="flex flex-col md:flex-row flex-wrap md:flex-nowrap overflow-x-auto gap-4 py-4 scrollbar-thin scrollbar-thumb-rose-500"> */}
-              {review.map((review: ReviewType) => (
-                <Reviews
-                  key={review.id}
-                  id={review.id}
-                  image={review.image}
-                  setSelectedPage={setSelectedPage}
-                />
-              ))}
-            </ul>
           </motion.div>
         </motion.div>
       </div>
