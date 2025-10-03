@@ -71,7 +71,7 @@ px-5 py-3 placeholder-white`;
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/nillaeventspecialist@gmail.com"
+              action="https://formsubmit.co/nwannaulomac@gmail.com"
               method="POST"
             >
               <input
