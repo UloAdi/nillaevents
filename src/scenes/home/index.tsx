@@ -1,7 +1,6 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import Action from "@/shared/ActionButton";
-// import HomePageImage1 from "@/assets/HomePageImage1.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
@@ -36,10 +35,7 @@ const sliderSettings = {
 const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
-    <section
-      id="home"
-      className="gap-16 bg-yellow-50 pt-40 scroll-mt-40 md:h-full md:pb-0"
-    >
+    <section id="home" className="gap-16  pt-40 scroll-mt-40 md:h-full md:pb-0">
       {/*IMAGE AND MAIN HEADER  */}
       <motion.div
         className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
@@ -63,8 +59,9 @@ const Home = ({ setSelectedPage }: Props) => {
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1]"></div>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-extrabold text-rose-500 text-center mb-6">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-rose-800 text-center mb-6">
               Welcome to Nilla Events
+              <p>(Event Planner)</p>
             </h1>
 
             {/* Supporting paragraph */}
@@ -73,7 +70,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 ABOUT US
               </h2> */}
               <p className="text-rose-800 leading-relaxed mb-4 text-lg">
-                <span className="font-bold text-pink-600">Nilla Events</span> is
+                <span className="font-bold text-pink-800">Nilla Events</span> is
                 a premier event planning and decoration company based in Owerri,
                 Imo State. We specialize in creating unforgettable experiences
                 for weddings, corporate functions, surprise celebrations and

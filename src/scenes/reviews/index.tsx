@@ -30,7 +30,7 @@ const Review = ({ setSelectedPage }: Props) => {
   return (
     // <section id="reviews" className="mx-auto min-h-full w-5/6 py-20 bg-rose-50">
 
-    <section id="reviews" className="w-full bg-rose-50 py-20">
+    <section id="reviews" className="w-full py-20">
       <div className="mx-auto w-5/6 min-h-full">
         <motion.div
           onViewportEnter={() => setSelectedPage(SelectedPage.Reviews)}

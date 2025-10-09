@@ -319,7 +319,7 @@ const OurServices = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>OUR SERVICES</HText>
-          <p className="max-w-4xl mx-auto mt-6 text-lg leading-relaxed text-rose-500">
+          <p className="max-w-4xl mx-auto mt-6 text-lg leading-relaxed text-black">
             At{" "}
             <span className="font-semibold text-primary-500">Nilla Events</span>
             , we believe every occasion deserves to be unforgettable.
@@ -386,7 +386,7 @@ const OurServices = ({ setSelectedPage }: Props) => {
                   onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                   href={`#${SelectedPage.ContactUs}`}
                 >
-                  <button className="mt-4 px-4 py-2 bg-primary-500 text-rose-500 underline rounded-lg hover:text-amber-400 transition">
+                  <button className="mt-4 px-4 py-2 bg-primary-500 text-rose-400 underline rounded-lg hover:text-amber-400 transition">
                     View More
                   </button>
                 </AnchorLink>

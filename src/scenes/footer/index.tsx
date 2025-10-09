@@ -6,7 +6,7 @@ import { SocialMediaIcons } from "@/scenes/SocialMediaIcons/socialmediaicons";
 
 const Footer = () => {
   return (
-    <footer className="bg-rose-100 py-8 text-md">
+    <footer className="bg-rose-50 py-8 text-md">
       <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
         <div className="mt-16 basis-1/2 md:mt-0">
           <img
